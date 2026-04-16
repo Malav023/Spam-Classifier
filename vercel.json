@@ -12,8 +12,7 @@
   "functions": {
     "api/*.py": {
       "memory": 1024,
-      "maxDuration": 10,
-      "runtime": "python3.11.2"
+      "maxDuration": 10
     }
   }
 }
