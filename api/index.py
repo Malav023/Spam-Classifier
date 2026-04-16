@@ -4,6 +4,9 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 import os
+import sys
+# This ensures the 'api' directory is in the python path so 'processors' can be imported
+sys.path.append(os.path.dirname(__file__))
 
 #ham = 0 spam =1 
 
